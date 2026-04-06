@@ -34,3 +34,6 @@ C:\Users\palla\GeoTrackProject\Backend\GeoTrack.Api\obj\Debug\net8.0\refint\GeoT
 C:\Users\palla\GeoTrackProject\Backend\GeoTrack.Api\obj\Debug\net8.0\GeoTrack.Api.pdb
 C:\Users\palla\GeoTrackProject\Backend\GeoTrack.Api\obj\Debug\net8.0\GeoTrack.Api.genruntimeconfig.cache
 C:\Users\palla\GeoTrackProject\Backend\GeoTrack.Api\obj\Debug\net8.0\ref\GeoTrack.Api.dll
+C:\Users\palla\GeoTrackProject\Backend\GeoTrack.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\palla\GeoTrackProject\Backend\GeoTrack.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\palla\GeoTrackProject\Backend\GeoTrack.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll

@@ -6,6 +6,9 @@ var builder = WebApplication.CreateBuilder(args);
 // Add controllers
 builder.Services.AddControllers();
 
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
 // ✅ ADD DATABASE (InMemory for now)
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseInMemoryDatabase("GeoTrackDb"));
@@ -21,6 +24,8 @@ builder.Services.AddCors(options =>
 
 var app = builder.Build();
 
+app.UseSwagger();
+app.UseSwaggerUI();
 app.UseCors("AllowAll");
 
 app.MapControllers();
